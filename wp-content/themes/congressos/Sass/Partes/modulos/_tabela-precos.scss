@@ -1,0 +1,61 @@
+.tabela-precos{
+	padding: 20px 0px;
+	display: block;
+
+	.table{
+		padding-right: 15px;
+		th{
+			text-align: center;
+			vertical-align: middle;
+			border-bottom: 1px solid $cor-01;
+			border-top: none;
+			color: $cor-01;
+			font-weight: 300;
+			font-size: 12px;
+
+			&.ativo{
+				white-space: nowrap;
+				font-weight: 500;
+			}
+			&.inativo{
+				@extend .ativo;
+				font-weight: 300;
+				@include opacity(0.5);
+			}
+			.data{
+				font-size: 18px;
+				display: block;
+				white-space: nowrap;
+				text-transform: uppercase;
+				line-height: 1;
+				padding: 0px 5px;
+				.dia{
+					font-weight: 700;
+					font-size: 29px;
+					display: inline;
+				}
+			}
+			span{
+				text-transform: uppercase;
+				display: block;
+				text-align: left;
+				font-weight: 400;
+				line-height: 1;
+			}
+		}
+		td{
+			@extend th;
+			padding: 10px;
+			font-size: 14px;
+			&.categoria{
+				text-align: right;
+				font-weight: 700;
+			}
+		}
+		tr:last-child{
+			td{
+				border: none;
+			}
+		}
+	}
+}

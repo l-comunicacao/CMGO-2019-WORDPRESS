@@ -1,0 +1,22 @@
+.msg-bem-vindo{
+	text-transform: uppercase;
+
+	.titulo{
+		font-weight: 800;
+		color: $cor-01;
+		font-size: 30px;
+		width: 280px;
+		margin: 40px 0px;
+		line-height: 1.0;
+	}
+
+	.conteudo{
+		color: #2b2b2b;
+		width: 90%;
+		font-weight: 500;
+	}
+
+	.btn{
+		width: 50%;
+	}
+}

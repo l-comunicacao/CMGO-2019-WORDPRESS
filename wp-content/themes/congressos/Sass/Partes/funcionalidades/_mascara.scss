@@ -1,0 +1,45 @@
+.mascara{
+	background: rgba( #000,0.3);
+	width: 100.1%;
+	height: 100%;
+	// display: block;
+	display: table;
+
+	.conteudo{
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		position: relative;
+		z-index: 99999;
+		text-transform: uppercase;
+		color: $cor-01;
+		span{
+			font-size: 12px;
+		}
+		.titulo{
+			font-size: 30px;
+			font-weight: 900;
+			margin: 0px;
+		}
+		.texto{
+			padding: 50px 50px;
+			color: #fff;
+		}
+		.dash{
+			margin: 6px auto;
+			width: 70px;
+		}
+	}
+	&.cinza{
+		background: rgba( 160,160, 160,0.8);
+	}
+	&.cor-01{
+		background: rgba( $cor-01,0.51);
+	}
+	&.cor-02{
+		background: rgba( $cor-02,0.8);
+	}
+	&.branco{
+		background: rgba( #ffffff,0.8);
+	}
+}

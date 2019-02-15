@@ -1,0 +1,42 @@
+/*
+Theme Name: Congressos
+Description: Tema base para os sites de congresso
+Author: Bruno Motta
+Author URI: http://www.webtrigger.com.br/
+Version: 1.0
+*/
+@import "../../cbrh/Sass/variaveis";
+
+@import "Bootstrap/bootstrap";
+
+@import "Genericos/genericos";
+
+
+@import "Partes/funcionalidades/index";
+@import "Partes/modulos/index";
+
+@import "Partes/header";
+@import "Partes/footer";
+@import "Partes/paginas";
+
+
+a{
+	text-decoration: none!important;
+}
+
+.dash{
+	width: 25px;
+	height: 2px;
+	background: $cor-01;
+}
+
+.dash_cinza{
+	@extend .dash;
+	background: $cinza-padrao;
+}
+
+.btn{
+	border-width: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+}

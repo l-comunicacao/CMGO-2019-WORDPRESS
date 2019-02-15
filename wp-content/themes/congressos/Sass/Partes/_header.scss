@@ -1,0 +1,31 @@
+header{
+	text-transform: uppercase;
+
+	.logo{
+		display: block;
+		margin: 0px auto;
+		padding: 10px 20px;
+	}
+
+	#menu-menu-principal{
+		margin: 0 auto;
+		font-weight: bold;
+		font-size: 12px!important;
+		.dropdown-item{
+			font-size: 12px!important;
+		}
+	}
+
+	.inscricao{
+		@extend .full-size;
+		background: $cor-02;
+		text-align: center;
+		.btn{
+			color: $cor-01;
+			font-weight: bold;
+			&:hover{
+				color: $cor-02;
+			}
+		}
+	}
+}

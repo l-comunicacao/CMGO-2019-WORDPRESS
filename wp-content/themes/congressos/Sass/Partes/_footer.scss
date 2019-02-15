@@ -1,0 +1,52 @@
+footer{
+	padding: 50px 0px;
+	background: $footer-background;
+	.footer{
+		.content-widget{
+			margin-bottom: 80px;
+			.widget{
+				padding: 0px 15px;
+				position: relative;
+				.widgettitle{
+					display: none;
+				}
+				.textwidget{
+					h1{
+						&:before{
+							content: " ";
+							@extend .dash;
+							position: absolute;
+							top: -10px;
+							font-size: 30px;
+						}
+						color: $cor-01;
+						font-weight: 300;
+						text-transform: uppercase;
+						font-size: 30px;
+						span{
+							display: block;
+							font-weight: 900;
+						}
+					}
+					p{
+						margin-bottom: 0px;
+					}
+				}
+				&.widget_media_image{
+					img{
+						max-width: 50%!important;
+						height: auto;
+						margin: 30px 0px;
+					}
+				}
+			}
+		}
+
+		form{
+			.form-control{
+				background: transparent;
+				border-width: 2px;
+			}
+		}
+	}
+}

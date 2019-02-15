@@ -1,0 +1,22 @@
+.call-to-action-conheca-cidade{
+	.texto-call-to-action{
+		max-width: 500px;
+		h2{
+			text-transform: uppercase;
+			font-weight: 900;
+			color: $cor-01;
+			margin: 40px 0px;
+
+			.dash{
+				margin-bottom: 20px;
+			}
+		}
+
+		.conteudo{
+			padding-bottom: 30px;
+			a{
+				margin-top: 40px;
+			}
+		}
+	}
+}

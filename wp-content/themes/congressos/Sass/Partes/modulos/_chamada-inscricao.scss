@@ -1,0 +1,24 @@
+.chamada-inscricao{
+	padding: 100px 0px 80px;
+	text-align: center;
+
+	.titulo{
+		color: $chamada-inscricao-color;
+		font-size: 30px;
+		font-weight: 900;
+		text-transform: uppercase;
+	}
+	.destaque{
+		@extend .titulo;
+		font-weight: 300;
+		margin-bottom: 40px;
+	}
+
+	.conteudo{
+		margin: 20px auto;
+		width: 70%;
+	}
+	.btn{
+		text-transform: uppercase;
+	}
+}

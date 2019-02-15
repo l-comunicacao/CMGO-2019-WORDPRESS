@@ -1,0 +1,22 @@
+/***************************************************************************
+ * Elementos do Wordpress
+ ***************************************************************************/
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+}
+.alignleft{
+    float: left;
+}
+.alignright{
+    float: right;
+}
+.aligncenter{
+    text-align: center;
+    margin: 0 auto;
+}
+img.aligncenter{
+	display: block;
+}

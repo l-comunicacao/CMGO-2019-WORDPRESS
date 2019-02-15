@@ -1,0 +1,22 @@
+.box-temas-cientificos{
+	background: $cor-01;
+	color: #fff;
+	padding: 90px;
+	margin-left: 80px;
+	text-transform: uppercase;
+
+	@media only screen and (max-width: map-get($container-max-widths,'sm') ){
+		margin: 0px 0px;
+		padding: 75px 15px;
+	}
+
+	.titulo{
+		font-size: 30px;
+		font-weight: 400;
+		margin-bottom: 40px;
+	}
+	.conteudo{
+		font-size: 17px;
+		font-weight: 300;
+	}
+}
