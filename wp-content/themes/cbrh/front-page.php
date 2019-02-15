@@ -1,4 +1,4 @@
-<?php // get_header(); ?>
+<?php  get_header(); ?>
 
 <body <?php body_class(); ?>  style="background-color: #E34853">
 		<header class="header-cmgo">
