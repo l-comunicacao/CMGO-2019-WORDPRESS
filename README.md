@@ -1,2 +1,2 @@
 # CMGO-2019-WORDPRESS
-APP
+Site Wordpress
